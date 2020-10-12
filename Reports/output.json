@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 65299000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch demo bank application \"http://demo.rapidtestpro.com/login.php\" in browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://demo.rapidtestpro.com/login.php\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.stepDef.HooksClass.launch_demo_bank_application_in_browser(String) in file:/C:/Users/ahilan/Downloads/GroupActivity-master/target/test-classes/"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-12T03:26:25.716Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDef.HooksClass.beforeExecution(Scenario) in file:/C:/Users/ahilan/Downloads/GroupActivity-master/target/test-classes/"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "To validate if user can navigate to home page with valid credentials",
+        "description": "",
+        "id": "validating-the-demobank-site;to-validate-if-user-can-navigate-to-home-page-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5839000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDef.HooksClass.afterExecution() in file:/C:/Users/ahilan/Downloads/GroupActivity-master/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3295000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enter the \"1234556666\"and \"MavDemo@01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234556666\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"MavDemo@01\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.stepDef.LoginPageStepDef.user_enter_the_and(String,String) in file:/C:/Users/ahilan/Downloads/GroupActivity-master/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 820000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click the Login button",
+            "match": {
+              "location": "com.stepDef.LoginPageStepDef.click_the_Login_button() in file:/C:/Users/ahilan/Downloads/GroupActivity-master/target/test-classes/"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3009000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter the valid \"12345\" and click on validate button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.stepDef.LoginPageStepDef.user_enter_the_valid_and_click_on_validate_button(String) in file:/C:/Users/ahilan/Downloads/GroupActivity-master/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 432000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should navigate to Home Page successfully",
+            "match": {
+              "location": "com.stepDef.HomePageStepDef.user_should_navigate_to_Home_Page_successfully() in file:/C:/Users/ahilan/Downloads/GroupActivity-master/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Validating the DemoBank site",
+    "description": "",
+    "id": "validating-the-demobank-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/DemoBank.feature",
+    "tags": []
+  }
+]
